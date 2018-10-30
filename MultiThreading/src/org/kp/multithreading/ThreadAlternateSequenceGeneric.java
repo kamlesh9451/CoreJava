@@ -4,15 +4,17 @@ public class ThreadAlternateSequenceGeneric {
 
 	public static void main(String[] args) {
 		ResourceLockG lock = new ResourceLockG();
-		ThreadG.noOfThreads=4;
+		ThreadG.noOfThreads=5;
 		ThreadG a=new ThreadG(lock,1);
 		ThreadG b=new ThreadG(lock,2);
 		ThreadG c=new ThreadG(lock,3);
 		ThreadG d=new ThreadG(lock,4);
+		ThreadG e=new ThreadG(lock,5);
         a.start();
         b.start();
         c.start();
         d.start();
+        e.start();
 	}
 
 }
