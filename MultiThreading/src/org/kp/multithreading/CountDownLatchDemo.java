@@ -21,9 +21,6 @@ public class CountDownLatchDemo {
 		st2.start();
 		st3.start();
 		st4.start();
-		
-		
-		
 		System.out.println("Main finished");
 
 	}
