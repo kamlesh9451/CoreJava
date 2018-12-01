@@ -5,6 +5,11 @@ public class Demo {
 		x t = new y();
 		t.show(null);
 }
+
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 class x
