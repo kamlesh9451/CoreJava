@@ -42,6 +42,7 @@ class ProducerThread extends Thread{
 		}
 	}
    public void produce(int item) throws InterruptedException {
+	   
 	   synchronized(sharedTaskQueue) {
 		   if(sharedTaskQueue.size()==MAX_CAPACITY)
 		   {
